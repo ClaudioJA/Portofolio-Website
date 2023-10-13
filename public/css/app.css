@@ -1,0 +1,242 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background: rgb(85,193,195);
+    background: radial-gradient(circle, rgba(85,193,195,1) 12%, rgba(0,0,0,1) 100%);
+}
+
+.navigationBar{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+.navigationBar button{
+    background: none;
+    color: inherit;
+    border: none;
+    font-size: 1vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+.profileBox{
+    width: 100%;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 2vw;
+    /* background-color: yellow; */
+}
+
+.profileContainer{
+    width: 80%;
+    height: 100%;
+    /* display: flex; */
+    /* align-self: center; */
+    background: rgb(0, 0, 0, 0.3);
+    box-shadow: 0.5vw 0.5vw 2vw #55c1c3;
+    /* text-shadow: 0.01vw 0.01vw 0.5vw #55c1c3; */
+    /* display: flex; */
+    justify-content: center;
+    color: white;
+    /* background: radial-gradient(circle, rgba(85,193,195,1) 12%, rgba(0,0,0,1) 100%); */ 
+}
+
+.profileDisplayer{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profileDisplayer span{
+    font-size: 4vw;
+}
+
+.profileDisplayer .profileName{
+    font-size: 1.5vw;
+    color: #55c1c3;
+}
+
+.profileDisplayer img{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 100%;
+}
+
+.menuContainer{
+    width: 100%;
+    /* background: rgb(85,193,195);
+    background: linear-gradient(0deg, rgba(85,193,195,1) 0%, rgba(0,0,0,1) 50%, rgba(85,193,195,1) 100%);    */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vw;
+}
+
+.menuDiv{
+    display: flex;
+    align-self: center;
+    color: white;
+    justify-content: center;
+    background: rgb(0, 0, 0, 0.5);
+    width: 70%;
+    height: auto;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    margin-bottom: 5vw;
+    box-shadow: 0.3vw 0.3vw 2vw #55c1c3;
+}
+
+.menuContentDiv{
+    align-self: center;
+    width: 70%;
+    /* height: 80%; */
+    /* background-color: red; */
+}
+
+.menuHeader{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+.menuContent{
+    font-size: 1.3vw;
+    /* flex-direction: column; */
+    /* display: flex; */
+}
+
+.menuContent-Cell{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.menuContent-Cell-Row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vw;
+}
+
+.menuContent-Cell-Item{
+    width: 20%;
+    /* height: 1.7vw; */
+    /* background-color: red; */
+    border: 1px solid white;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2vw;
+    box-shadow: 0.3vw 0.3vw 2vw #55c1c3;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menuContent-Cell-Item:hover{
+    transform: scale(1.1);
+}
+
+.menuContent-Cell-Item img{
+    width: 7vw;
+    height: 7vw;
+}
+
+.projectContent-Cell-Item{
+    width: 35%;
+    /* height: 1.7vw; */
+    /* background-color: red; */
+    border: 1px solid white;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2vw;
+    box-shadow: 0.3vw 0.3vw 2vw #55c1c3;
+    transition: transform 0.3s ease-in-out;
+}
+
+.projectContent-Cell-Item:hover{
+    transform: scale(1.1);
+}
+
+.projectContent-Cell-Item img{
+    width: 100%;
+    height: 7vw;
+}
+
+.projectContent-Name{
+    font-size: 1.5vw;
+}
+
+.projectContent-Link{
+    font-size: 1vw;
+    border: 1px solid white;
+    border-radius: 10%;
+    padding : 1vw;
+    transition: background-color 0.5s ease;
+}
+
+.projectContent-Link:hover{
+    background-color: cyan;
+}
+
+.projectContent-Link a{
+    text-decoration: none;
+    color: #55c1c3;
+    transition: color 0.5s ease;
+}
+
+.projectContent-Link:hover a{
+    color: black;
+}
+
+.githubLink{
+    text-decoration: none;
+    color: white;
+}
+
+.githubLink:hover{
+    color: #55c1c3;
+}
+
+.contactContainer-Row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3vw;
+}
+
+.contactContainer{
+    width: 10%;
+    /* height: width; */
+    /* background-color: red; */
+    border: 1px solid white;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2vw;
+    box-shadow: 0.3vw 0.3vw 2vw #55c1c3;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contactContainer img{
+    width: 5vw;
+    height: 5vw;
+}
