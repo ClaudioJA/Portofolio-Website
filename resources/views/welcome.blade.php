@@ -144,10 +144,10 @@
                             </div>
 
                             <div class="projectContent-Cell-Item">
-                                <img src="{{ asset('picture/nusama-pic.png') }}" alt=""><br />
+                                <img src="{{ asset('picture/porto-pic.png') }}" alt=""><br />
                                 <span class="projectContent-Name">Portofolio Website (Laravel)</span><br />
                                 <span class="projectContent-Link">
-                                    <a href="https://github.com/ClaudioJA/" target="_blank">Code</a>
+                                    <a href="https://github.com/ClaudioJA/Portofolio-Website" target="_blank">Code</a>
                                 </span>
                             </div>
                         </div>
